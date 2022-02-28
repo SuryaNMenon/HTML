@@ -1,0 +1,17 @@
+div{
+  margin-bottom: 20px;
+}
+
+label{
+  display: inline-block;
+  width: 120px;
+}
+
+h1{
+  font-family: verdana;
+  text-align: center;
+}
+
+body{
+  font-family: Verdana;
+}
