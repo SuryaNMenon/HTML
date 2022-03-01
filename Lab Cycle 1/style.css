@@ -25,11 +25,13 @@ li{
 }
 
 li a{
-  display: block;
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 20px;
   text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
 }
 
 li a:hover{
