@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab cycle 5</title>
+    <link rel = "stylesheet" href = "main.css">
+</head>
+<body>
+    <h1>User Registration</h1>
+    <p>Please complete the following form to register with our site:</p>
+    <div id="userpass">
+        <label id="userLab">User Name:</label>
+        <input class = "userInput" id="username" type="text">
+        <label id="userNotif"></label> <br>
+
+        <label id="userPass">Password:</label>
+        <input class = "userInput" id="password" type="password">
+        <label id="pwNotif"></label>
+        
+
+        <br><br>
+
+        <label id="packageSelect">Select a package:</label>
+
+        <select name="userInput" class = "userInput" id="package">
+            <option value="1mo">1 month (Rs. 200)</option>
+            <option value="3mo">3 months (Rs. 550)</option>
+            <option value="6mo">6 months (Rs. 1100)</option>
+            <option value="1yr">1 year (Rs. 1900)</option>
+        </select>
+        <label id="selectNotif"></label>
+
+        <br><br>
+
+        <label>Check to agree to terms and conditions</label>
+        <input type="checkbox" id="checkbx">
+
+        <br>
+
+        <input id="register" type="button" value="Register now">
+    </div>
+    <label id="termsNotif" style="margin-left:150px"></label>
+
+    <script src ="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    overflow:hidden;
+}
+
+#userpass{
+    width:60%;
+}
+
+.userInput{
+    float:right;
+}
+
+#userName{
+    color: green;
+}
+
+#register{
+    margin-left: 250px;
+}
