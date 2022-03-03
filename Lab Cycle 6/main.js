@@ -11,10 +11,3 @@ $('#addTask').click(function(e){
         $(this).css('text-decoration', 'line-through');
     })
 });
-
-$
-
-$('li').click(function(){
-    $(this).css('background-color', 'lightgreen');
-    $(this).css('text-decoration', 'line-through');
-})
