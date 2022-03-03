@@ -1,7 +1,7 @@
 $('#addTask').click(function(e){
     let task = $('#taskInput').val();
     $('ul').append(`<li>${task}<button class="X">X</button></li>`);
-    $('#taskInput').val = "";
+    $('#taskInput').val("");
     $(".X").click(function(e)
     {
         $(e.target.parentElement).detach();
