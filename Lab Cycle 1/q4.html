@@ -1,82 +1,71 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="my website">
-    <link rel="stylesheet" href="style5.css">
-  </head>
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style5.css"
+</head>
+<body>
     <h1>Job Application</h1>
-    <h3 style="color:red">Personal Information</h3>
-    <div style="display: flex;max-width : 450px;">
-      <label>Name</label>
-      <div class="fname"><input type="text" id="fname" name="fname" style="max-width:80%"><br>First Name</div>
-      <div class="lname"><input type="text"id="lname" name="lname" style="max-width: 80%"><br>Last Name</div>
-    </div>
-
-    <div>
-      <label>Email</label>
-      <input type="text" id="email" name="email" placeholder="user@example.com">
-    </div>
-
-    <div>
-      <label>Education</label>
-      <select style="max-width:150%">
-          <option value="Choose">Please Choose</option>
-          <option value="School">Schooling Degree</option>
-          <option value="Bachelor">Bachelor's Degree</option>
-          <option value="Master">Master's Degree</option>
-          <option value="Higher">Higher Degree</option>
-      </select>
-    </div>
-
-    <div>
-      <label>Resume</label>
-      <input type="file">
-    </div>
-
+    <h3>Personal Information</h3>
     <div style="display:flex">
-      <label>Address</label>
-      <div class="adr1"><input type="text" id="adr1" name="adr1" size=50><br>Address 1
-      <div class="adr2"><input type="text" id="adr1" name="adr1" size=50><br>Address 2
-      <div class="country">
+        <label>Name</label>
+        <div><input type="text" style="max-width:80%"><br>First Name</div>
+        <div><input type="text" style="max-width: 80%"><br>Last Name</div>
+    </div>
+    <div style="display:flex">
+        <label>Email</label>
+        <input type="email" placeholder="user@example.com" style="width:50%">
+    </div>
+    <div style="display:flex">
+        <label>Education</label>
         <select>
-          <option value="Select">Select a Country</option>
-          <option value="India">India</option>
-          <option value="USA">USA</option>
-          <option value="UK">UK</option>
+            <option value="Please Choose">Please choose</option>
+            <option value="HS">HS</option>
+            <option value="College">College</option>
+            <option value="Degree">Degree</option>
         </select>
-      </div>
     </div>
-    </div>
-    </div>
-
     <div style="display:flex">
-      <label>Phone</label>
-      <input type="text" value="+91" size="2" readonly>
-      <input type="text">
+        <label>Resume</label>
+        <input type="file">
     </div>
-
-    <div class="hobbies">
-      <label>What are your hobbies?</label><br>
-      <input type="text" size=60>
+    <div style="display:flex">
+        <label>Address</label>
+        <div><input  type="text" size="50"><br><p style="margin:0; text-align:center; font-size: smaller;">Address 1</p>
+        <input  type="text" size="50"><br><p style="margin:0; text-align:center; font-size: smaller;">Address 2</p>
+        <select>
+            <option value="Select a Country">Select a Country</option>
+            <option value="India">India</option>
+            <option value="Europe">Europe</option>
+        </select> <br> <p style="margin:0; text-align:left; font-size: smaller;">Country</p>
+        <div style="display:flex">
+            <div><input type="text" size="30" style="max-width: 94%;"> <p style="margin:0; text-align:left; font-size: smaller;">City</p></div>
+            <div><input type="text" size="5" style="max-width: 80%;"> <p style="margin:0; text-align:left; font-size: smaller;">State</p></div> 
+            <div><input type="text" size="15" style="max-width: 80%;"> <p style="margin:0; text-align:left; font-size: smaller;">Zip Code</p></div>
+        </div>
+        </div>
     </div>
-
-    <h3 style="color: red">Previous/Current Employment Details</h3>
-    <div class="prevdet1">
-      <label>Company Name</label>
-      <input type="text" size=60>
+    <div style="display:flex">
+        <label>Phone Number</label>
+        <div>
+            <input type="text" size="1" placeholder="+91" readonly> <input type="text" size="50">
+        </div>
     </div>
-    <div>
-      <label>Job Title</label>
-      <input type="text" size=60>
+    <h3>Previous/Current Employment Details</h3>
+    <div style="display:flex">
+        <label>Company Name</label>
+        <input type="text" size="57">
     </div>
-    <div>
-      <label>How long were you there?</label>
-      <input type="text" size=60>
+    <div style="display:flex">
+        <label>Job Title</label>
+        <input type="text" size="57">
     </div>
-    <div id="submit">
-      <input type="submit">
+    <div style="display:flex">
+        <label>How long were<br>you there?</label>
+        <input type="text" size="57">
     </div>
-  </body>
+</body>
 </html>
