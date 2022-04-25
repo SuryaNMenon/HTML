@@ -1,0 +1,9 @@
+#container{
+    width:45%;
+}
+input{
+    float:right;
+}
+label{
+    float:left;
+}

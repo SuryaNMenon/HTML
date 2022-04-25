@@ -1,0 +1,15 @@
+.container{
+    color: darkslateblue;
+    padding:20px;
+    border: 2px solid lightgray;
+    width: 350px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:650;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+a{
+    text-decoration: none;
+}
