@@ -10,6 +10,16 @@ ul{
     padding: 0;
 }
 
+body{
+    background-color: #333;
+}
+
+#container{
+    width:50%;
+    margin: auto;
+    overflow: hidden;
+}
+
 ul li{
     cursor: pointer;
     position: relative;
@@ -33,7 +43,8 @@ ul li{
     text-align:left;
     color: white;
     float:right;
-    font-weight:800
+    font-weight:800;
+    background-color: tomato;
 }
 
 .container{
